@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>UI自动化混合框架测试报告</title>
+</head>
+<body style="margin-top: 20px; font-family: '微软雅黑';" bgcolor="#d3d3d3">
+<table border="1" cellspacing="0" cellpadding="5"
+	   width="95%" align="center">
+	<tr bgcolor="bisque" style="font-size: 30px;">
+		<td height="60" colspan="7">测试报告: $test_date</td>
+	</tr>
+	<tr style="font-size: 20px;">
+		<td width="20%">测试版本：$test_version</td>
+		<td width="10%">成功：$pass_count 个</td>
+		<td width="10%">失败：$fail_count 个</td>
+		<td width="10%">错误：$error_count 个</td>
+		<td width="10%">忽略：$skip_count 个</td>
+		<td width="15%">通过率：$percent %</td>
+		<td width="35%">测试报告时间：$report_time</td>
+	</tr>
+</table>
+<p/>
+<table border="1" cellspacing="0" cellpadding="5"
+	   width="95%" align="center">
+	<tr height="40" bgcolor="darkseagreen">
+		<td width="7%">ID</td>
+		<td width="15%">Scene</td>
+		<td width="7%">Executed</td>
+		<td width="10%">Test Result</td>
+		<td width="12%">Run Time</td>
+		<td width="12%">Error Msg</td>
+		<td width="15%">Test Log</td>
+		<td width="20%">Test Screen</td>
+	</tr>
+	<!-- 此处只需要定义一个变量，用于循环代替即可 -->
+	$test_result
+</table>
+</body>
+</html>
